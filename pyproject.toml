@@ -1,0 +1,10 @@
+[project]
+name = "genai-assignment1"
+version = "0.1.0"
+description = "FastAPI extended with spaCy word embeddings"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]",
+    "spacy",
+]
